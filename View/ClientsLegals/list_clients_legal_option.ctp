@@ -1,0 +1,1 @@
+<option value="<?php echo $user['ClientsLegal']['id'] ?><?php echo isset($this->request->data["modal"]) ? "_LEGAL" : "" ?>"><?php echo isset($this->request->data["modal"]) ? trim($user["ClientsLegal"]["nit"])." | ".trim($user["ClientsLegal"]["name"]) :  $user['ClientsLegal']['name'] ?></option>

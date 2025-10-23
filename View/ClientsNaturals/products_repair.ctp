@@ -1,0 +1,5 @@
+
+
+<?php
+	echo $this->Html->script(array('lib/jquery-3.0.0.js?'.rand()),						array('block' => 'jqueryApp'));
+?>

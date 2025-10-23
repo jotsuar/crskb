@@ -1,0 +1,33 @@
+@media screen and (max-width: 1100px) {
+    .bs-wizard > .bs-wizard-step .bs-wizard-info { font-size: 13px !important; margin-top: 14px !important;}
+    .datecreated{ font-size: 11px; font-weight: 400; color: #003889;}
+    .calendarManage {padding: 25px 16px;}
+    #calendarDashboard .fc-list-table td {padding: 3px;}
+    #calendarDashboard .fc-view-container .fc-list-item-title {font-size: 12px;}
+    .numberpages {font-size: 12px; margin-right: 4px !important;}
+    .content-all h2 {font-size: 14px;}
+    .fc button, .fc table, body .fc {font-size: 12px !important;}
+}
+@media screen and (max-width: 674px) {
+    .registerprospective .bs-wizard .col-md-2{
+        max-width: 16.666667% !important;
+    }
+    .bs-wizard > .bs-wizard-step .bs-wizard-info , span.datecreated{
+        display: none;
+    }
+    .bs-wizard {
+        margin-bottom: 10px;
+    }
+
+}
+
+  @media screen and (max-width: 390px) {
+    #calendarDashboard .fc-center h2{
+        display: none !important;
+    }
+    #gestiones-dashboard .content-all{
+    	text-align: center !important;
+    	font-size: 12px;
+    }
+ }
+

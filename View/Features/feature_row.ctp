@@ -1,0 +1,1 @@
+<?php echo $this->element('row_feature',["features"=>$features]) ?>

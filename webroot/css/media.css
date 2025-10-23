@@ -1,0 +1,1104 @@
+
+@media screen and (max-width: 1700px) {
+    .fila1, .fila2 {
+        padding: 0px !important;
+    }
+    .col-md-3.valoresTRM {
+        left: -24%;
+    }
+    .flechagiroprices {
+        right: -27px !important;
+        left: auto;
+    }
+}
+
+
+@media screen and (max-width: 1650px) {
+    .modal-lg3 {
+        max-width: 73% !important;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .col-md-3.valoresTRM {
+        left: inherit;
+        right: inherit;
+        top: inherit;
+        position: relative;
+        background: #f7f7f7;
+        width: 100%;
+        display: block;
+        max-width: 100%;
+        flex: 100%;
+        border-radius: 0px;
+        box-shadow: inherit;
+    }
+    .fila1 span, .fila2 span {
+        display: inline;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .scrolldataprices {
+        height: auto;
+    }
+    .valoresTRM .margenblock {
+        border-radius: 0;
+    }
+    .fondo-rojo {
+        background-color: #fbfbfb;
+        color: #dc3545;
+    }
+    .fondo-verde {
+        background-color: #fbfbfb;
+        color: #00b307;
+    }
+    .margenblock h2.margenes {
+        color: inherit !important;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    #gestiones-dashboard .bs-wizard > .bs-wizard-step .bs-wizard-info {
+        display: none;
+    }
+    .blockwhiteabajo2 {padding: 0px 10px 10px 10px;}  
+    .import {padding: 10px;}
+    .blockwhitearriba {padding: 25px 10px 0px 10px;}
+    img.imgmin-product.mb-3 {width: 40px;height: 40px;}
+    body {font-size: 12px !important;}
+    .blockwhite {padding: 15px;}
+    ul.subpagos2 li span {font-size: 12px; margin-bottom: 0px;}
+    .brandsLink, .linkTab {padding: 7px 15px !important;}
+    h1.nameview {font-size: 20px !important;}
+    .btn {padding: 0.2rem 0.55rem !important; font-size: 12px !important;}
+    button.btn.btn-link.bold {font-size: 14px !important;}
+    .card-body {padding: 10px !important;}
+    a#nuevoFlujoTienda , a#simpleflow{
+        padding: 5px 6px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    ul.subpagos2 li {
+        padding: 11px 14px;
+    }
+    a#nuevoFlujoCrmData {
+        padding: 5px 6px;
+        margin-top: 0px;
+    }
+    #modal_form_label_edit, #modal_contactado_label, #modal_form_label, #exampleModalScrollableTitle, #modal_big_label, #modal_negociado_label, #modal_requerimiento_label, #modal_small_label, #modal_form_products_label, #cambiarContrasenaModal #exampleModalLabel, #modal_cotizado_label, #modal_pagado_label, #modal_despachado_label, #myModalgmail, #modal_small_information_label, #modal_information_label, #modal_servicio_finalizado_label, #modal_administrar_despachado_label, .labeligual, .modal-title {
+        font-size: 16px;
+    }   
+    #modal_form_edit_natural .modal-footer a, #modal_form_edit_contacto .modal-footer a, #modal_form_edit .modal-footer a, #modal_big .modal-footer a, #modal_contactado .modal-footer a, #modal_negociado .modal-footer a, #modal_form .modal-footer a, #agregarTareaModal .modal-footer a, #modal_small .modal-footer a, #modal_form_products .modal-footer a, #cambiarContrasenaModal .modal-footer a, #modal_cotizado .modal-footer a, #modal_pagado .modal-footer a, #modal_despachado .modal-footer a, #compose-modal .modal-footer a, #modal_administrar_despachado .modal-footer a, #modal_form_nota_flujo .modal-footer a {
+        font-size: 14px;
+    }     
+    div#modal_administrar_despachado_body img.img-fluid.productoImagenData {
+        padding: 7px 17px;
+    }    
+    td, th {
+        padding: 3px 6px;
+    }
+    .bwhite th {
+        padding: 7px;
+        line-height: 12px;
+    }
+
+    h1.nameview.spacebtnm {
+        font-size: 15px !important;
+        padding: 0px;
+    }
+    img.brandcrm {width: 150px;}    
+    .datehour p {
+        margin-right: 10px;
+        padding: 8px 0px 0 0 !important;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    .cantidadquote2 {
+        font-size: 12px;
+        padding: 7px 4px;
+        min-height: 90px !important;
+        max-height: 90px !important;
+    }    
+    .priceview2 {
+        font-size: 12px;
+        padding: 7px 12px 5px 12px;
+        min-height: 90px !important;
+        max-height: 90px !important;
+    }    
+    #block-three .boxright h2,#block-three .boxleft h2 {
+        margin-bottom: 1px;
+        font-size: 13px !important;
+    }
+    #block-three .boxright h2 span, #block-three .boxleft h2 span {
+        font-size: 13px;
+    }
+    #navbarTogglerDemo01 a {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .control_flujo h3 {
+        font-size: 13px !important;
+    }
+    .form-control {
+        font-size: 13px !important;
+        padding: 0.22rem 0.75rem !important;
+    }
+    .size1 {
+        width: 10%;
+    }
+    .nolaptop{
+        display: none;
+    }
+    .datastates a {
+        font-size: 12px;
+    }    
+    thead.titlestab tr th {
+        padding: 7px 12px;
+        line-height: 14px;
+    }
+    .btn-primary:hover {
+        border: 1px solid #003889 !important;
+    }        
+    .numberpages {
+        font-size: 14px !important;
+    }
+    .searchimport h2{
+        font-size: 13px !important;
+    }
+    .bannerbig {
+        font-size: 15px ;
+    }
+    .allflujo .col-md-12 .col-md-6 h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 16px;
+    } 
+    span.datecreated {
+        font-size: 11px !important;
+        font-weight: normal;
+    }
+    .content-wrapper {
+        padding-top: 12px !important;
+    }
+/*    .registerprospective.blockwhite.control_flujo {
+        padding: 10px 16px 10px 6px;
+    }*/
+    .bs-wizard {
+        margin-top: 5px;
+    }
+    .bg-filter {
+        margin-top: 5px;
+    }
+    .spacebtn20 {
+        margin-bottom: 15px;
+    }
+    .horizontal_user_1, .horizontal_user_2, .horizontal_user_3, .horizontal_user_4, .horizontal_user_5, .horizontal_user_6, .horizontal_user_7 {
+        font-size: 14px !important;
+    }
+    .usuarioTotal_1, .usuarioTotal_2, .usuarioTotal_3, .usuarioTotal_4, .usuarioTotal_5, .usuarioTotal_6, .usuarioTotal_7, .usuarioTotal_8, .usuarioTotal_9 {
+        font-size: 20px !important;
+    }    
+    .table_resultados_numero th, .table_resultados_numero td, .table_resultados_numero {
+        font-size: 14px;
+        padding: 2px;
+    }    
+    a.alingicon {
+        padding: 6px 10px;
+    }
+    th.columna30 {
+        width: 13%;
+    }    
+    .widget-panel {
+        margin-bottom: 15px;
+    }
+    .input-group.stylish-input-group {
+        margin-bottom: 0px;
+    }
+    .sweet-alert h2 {
+        font-size: 16px;
+    }
+    .redesSuma , .presencialSuma , .llamadaSuma , .emailSuma , .whatsappSuma , .chatSuma {
+        font-size: 20px !important;
+    }    
+    .chatTotal,.landingTotal, .whatsappTotal, .emailTotal, .llamadaTotal, .presencialTotal, .redesTotal, .referidosTotal, .chatpelicanTotal, .chatUsaTotal, .wppUsaTotal, .emailUsaTotal {
+        font-size: 23px !important;
+    }    
+    td.totalTotal, .nametotal {
+        font-size: 18px !important;
+    }    
+    .lead {
+        font-size: 14px !important;
+    }
+    select.form-control:not([size]):not([multiple]), select#ProspectiveUserExcel{
+        height: auto !important;
+        padding: 0.22rem 0.75rem !important;
+    }    
+    .crearclientej {
+        font-size: 13px;
+    }
+    .novedadescontent, .resultadoscontent {
+        padding: 15px;
+    }
+    .content-all h4 {
+        font-size: 13px;
+    }
+    .bs-wizard > .bs-wizard-step .bs-wizard-info {
+        font-size: 12px !important;
+        margin-top: 14px !important;
+    }
+    div#DataTables_Table_0_wrapper {
+        padding: 0px;
+    }
+    #gestiones-dashboard .registerprospective {
+        margin-bottom: 12px;
+    }
+    .widget-panel-menu i:before {
+        font-size: 32px;
+        margin-left: 8px;
+    }
+    .widget-panel-menu i {
+        padding: 15px 7px 12px 0px !important;
+        margin-top: -17px !important;
+        margin-right: -19px !important;
+    }   
+    .widget-panel-menu h2 {
+        font-size: 15px;
+    }
+    .widget-panel-menu div {
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 29px;
+    }
+     #navleft .widget-panel-menu{
+        padding: 19px 19px 16px 10px;
+    }
+
+    #navleft {
+        font-size: 13px;
+    }
+    .databuy{
+        height: 120px !important;
+        min-height: 120px !important;
+        max-height: 120px !important;
+        padding: 8px 18px !important;
+    }
+    .databuy h2 {
+        font-size: 17px;
+    }
+    .reduce {
+        padding-top: 10px;
+    }
+    #block-one .boxright h2 {
+        font-size: 18px;
+    }
+    #block-one .boxleft h2 {
+        font-size: 32px;
+        margin-top: 9px;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }  
+     .widget-style-2 i {
+        padding: 25px 16px 22px 0px;
+    }     
+}
+
+@media screen and (max-width: 1299px) {  
+    .contenttableresponsive{
+        overflow-x: auto !important;
+    }    
+    .contenttableresponsive table{
+        width: 1300px !important;
+    }
+    .savebefore input{
+        vertical-align: sub;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .brandsLink, .linkTab {
+        font-size: 13px;
+    }   
+    .allnovedad .col-md-4{
+        padding-left: 0px;
+    }
+
+    .Comprobanteacep, .comprobanteguia, .statushop, .statushopicon  {
+        padding: 4px 7px;
+    }  
+    .dateasesor2 {
+        display: none;
+    }
+    .widget-style-2 i {
+        padding: 15px 16px 14px 0px;
+    }
+    .logointro {
+        padding: 30px 0 30px 0;
+    }   
+    .searchobject {
+        margin-left: 12px;
+    }   
+    img.brandcrm {
+        margin-left: 12px;
+    }
+    .datehour{
+        display: none;
+    }
+    .contentavatar p{
+        display: none;
+    }
+    .blockbar{
+        display: block;
+    }
+    .inlinebar{
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 991px) {
+    .card-header span.pull-right{
+        float: inherit !important;
+    }
+    .displayinline{
+        display: block;
+        text-align: center;
+    }
+    #resultadoBuscador {
+        padding-left: 0px;
+        padding-right: 0px;
+    }    
+
+    #navleft .widget-panel-menu {
+        padding: 12px 19px 4px 10px;
+    }    
+    .bs-wizard > .bs-wizard-step .bs-wizard-info {
+        font-size: 10px !important;
+    }   
+    .solomobil{
+        display: inline;
+    }
+    .soloweb{
+        display: none;
+    }
+    img.brandcrm {
+        margin-left: 20px;
+    }
+     .d-inline.ml-3 {
+        width: 100%;
+        margin-left: 0px !important;
+    }   
+    .d-inline.ml-3 input#fechasInicioFin {
+        width: 94.5% !important;
+        margin-bottom: 10px;
+    }    
+    .titleviewer {
+        font-size: 16px !important;
+    }    
+    .pd30 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+     #mainNav {
+        padding: 17px 0px 17px 0px !important;
+    }   
+    .widget-panel-menu div {
+    font-size: 13px;
+    line-height: 14px;
+    padding-right: 29px;
+    margin-left: 7px;
+    }    
+    .barmin {
+        display: block;
+        width: 100%;
+        position: relative;
+    }    
+    .col-md-3.minpedido {
+        text-transform: uppercase;
+    }    
+    .nav-tabs .nav-item {
+        margin-bottom: -1px;
+        display: block;
+        width: 100%;
+    }    
+    .banner-text h1 {
+        font-size: 30px;
+    }  
+    .content-all {
+        padding: 10px;
+    }
+    .databuy {
+        display: none;
+    }
+    .widget-panel-menu h2, .widget-panel-menu div {
+        display: inline-block;
+        vertical-align: 6px;
+    }
+    ul.subdespachos li {
+        background-color: #f3f5f9;
+        float: left;
+        padding: 8px 19px;
+        margin-right: 5px;
+        width: 100%;
+        margin-bottom: 4px;
+    }    
+    ul.subinforme{
+        width: 100%;
+    }
+    ul.subinforme li {
+        margin-bottom: 5px; 
+        display: block;
+        float: none;
+    }
+    .itemsopen ul.sidenav-second-level.collapse.show {
+        display: inherit;
+    }    
+    #navleft .widget-panel-menu i {
+        display: none;
+    }    
+    .control_flujo .col-md-3.text-right{
+        display: none;
+    }
+    #idflujo{
+        display: block;
+    }
+    .btnDownloadPdf {
+        display: block;
+        margin-bottom: 10px;
+    }    
+    .container.osspecialrsp {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+    .TechnicalServicesview .container-fluid.pd30 , .TechnicalServicesreport .container-fluid.pd30{
+        padding: 0px !important;
+    }
+    .TechnicalServicesview .pdpagest , .TechnicalServicesreport .pdpagest{
+        padding: 9px 15px !important;
+    }
+    .TechnicalServicesview .centerimg , .TechnicalServicesreport .centerimg{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    a.list-group-item.intro-results {
+        padding: 0.75rem 7rem 0.75rem 0.5rem;
+    }
+    .alignright {
+        right: 6px;
+    }
+    .tag-search {
+        right: 38px;
+    }
+    .tag-search {
+        width: 65px;
+        font-size: 9px;
+        padding: 4px 3px;
+    }
+
+    .intro-results p {
+        font-size: 12px;
+    }
+    .overlay-content {
+        top: 4%;
+        width: 94%;
+    }
+    .sizemax .fa-search:before {
+        content: "\f002";
+        font-size: 22px;
+    }
+    .blockdata {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .Quotationsadd .products.form.blockwhite {
+        margin-bottom: 20px;
+    }
+    .content-wrapper {
+        margin-left: 0px;
+        padding-top: 0px !important;
+    }
+    .Productsview .col-lg-4.col-md-12{
+        margin-bottom: 20px;
+    }
+    footer.sticky-footer {
+     position: absolute;
+     right: 0;
+     bottom: 0px;
+     width: 100%;
+    }
+    .loginblock, .botonsaction{
+        width: 100% !important;
+        padding: 20px;
+    }
+    .userslogin .submit input, .Usersremember_password .submit input, .usersremember_password_step_2 .submit input {
+        padding: 18px 35px !important;
+    }
+    .brandlogin {
+        margin: 0 auto;
+        display: block;
+    }
+    .loginblock {
+        margin: 26px auto 0px auto;
+    }
+    .dataitems{
+        display: none !important;
+    }
+    .line {
+        border-left: 0px solid transparent;
+    }    
+    .brandbar img {
+        padding: 19px 34px;
+        width: 206px;
+        background: white;
+    } 
+    .brandlogin {
+        margin: 0 auto;
+        margin-top: 20%;
+        display: block;
+        width: 50%;
+    }    
+    #mainNav.fixed-top .navbar-sidenav {
+        height: auto;
+        margin-top: 0px !important;
+        width: auto;
+    }   
+    #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+        color: #d6ebfc;
+        padding: 0.3rem 1rem;
+    }       
+    div#navbarResponsive {
+        background: #2d3640;
+    } 
+    span.nav-link-text {
+        margin-left: 8px;
+        color: #fdfeff;
+    }
+    .nav-link-text {
+        display: inline-block;
+    }
+    #mainNav .navbar-collapse {
+        width: 100%;
+        margin-top: 17px;
+        padding: 0px;
+        margin-bottom: -17px;
+    }
+    ul.navbar-nav.ml-auto{
+        display: none;
+    }
+    #navleft{
+        box-shadow: none;
+    }
+    .closesesion{
+        padding-bottom: 20%;
+        padding-top: 5%;
+    }
+    .brandbig {
+        display: inline-block;
+        background-color: transparent !important;
+        -webkit-filter: contrast(0%) brightness(200%);
+        filter: contrast(0%) brightness(200%);
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255, 255, 255, 0.5);
+        border-color: rgba(255, 255, 255, 0) !important;
+    }
+    .brandmin {
+        display: none;
+    }
+    .sizemax{
+        vertical-align: unset;
+    } 
+    .searchobject {
+        font-size: 16px;
+        display: inline !important;
+        float: left;
+        width: 20px !important;
+    }
+    .searchobject input {
+        font-size: 15px !important;
+    }
+    .hiddenspecial{
+        display: none !important;
+    } 
+    .widget-style-2.zoom {
+        transition: none;
+    }
+    .widget-style-2.zoom:hover {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        transition: none;
+    }
+    .btn {
+        display: block;
+        margin-bottom: 5px;
+        padding: 0.2rem 0.55rem !important;
+        width: 100%  !important;
+    } 
+    .dropdown {
+        /*width: 100%;*/
+    }
+    .subpagos-box li , .subpagos-box2 li{
+        width: 100%;
+    }
+    .dropdown.text-right.mr-2 {
+        margin-right: 0px !important;
+    }    
+     button.btn.btn-link {
+        display: inline;
+        text-align: inherit;
+        padding: 2px !important;
+        margin: 0px;
+    }   
+    .btnnovedadesetapa{
+        display: none;
+    }
+    a.btn_editar_contacto {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .resetostab {
+        display: inline-block;
+        width: 100%;
+    }
+    button.btn.crearclientej.float-right , .btnrjt{
+        display: none;
+    }
+    .contentmargin p, .contentmargin p span {
+        margin-bottom: 0px !important;
+    }
+    .datasesorview {
+        margin: 35px 0px;
+        font-size: 18px;
+    }
+    .conditionsview h2{
+        text-align: center;
+    }
+    h4.totalcotiza.mt-5 {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 38px;
+    }
+    .notesdescrip{
+        display: none;
+    }
+    .priceview, .cantidadquote , .entregat , .subtotalquote{
+        font-size: 16px;
+        padding: 12px;
+    }
+    ul.subpagos2 li {
+        width: 50%;
+    }
+    .card small {
+        display: none;
+    }
+    .btn {
+        padding: 0.2rem 0.55rem !important;
+    }
+
+    ul.subpagos2 {
+        display: inline-block;
+    }
+    .bs-wizard > .bs-wizard-step .bs-wizard-info {
+        /*display: none;*/
+    }
+    .resultadoscontent{
+        margin-top: 15px;
+    }
+    .allnovedad .col-md-4 {
+        padding-left: 15px;
+    }
+    .registerprospective.blockwhite.control_flujo {
+        padding: 10px 2px 10px 2px;
+    }    
+    h3.opendetails {
+        text-align: center;
+        margin-bottom: -2px;
+    }   
+    .dateasesor2 {
+        display: inline-block;
+    }
+    .col-md-5.text-right.dataunique {
+        text-align: center !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }    
+    .d-inline.ml-3 input#fechasInicioFin {
+        width: 90.5% !important;
+        margin-bottom: 10px;
+    }
+    .allflujo .col-md-12 .col-md-6 h2 {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .allflujo .numberpages{
+    text-align: center !important;
+    }
+    .aligntitle h2{
+        text-align: center !important;
+    }
+    .dropdown.dinline {
+        display: block;
+    }   
+    #fechasInicioFin{
+        width: 100%;
+    }
+    .rangofechas{
+        float: none !important;
+        display: block !important;
+    }    
+    .datastates.show {
+        width: 100%;
+    }    
+  
+.minbtn{
+    display: block;
+}
+.maxbtn{
+    display: none;
+}
+.userslogin .submit input, .Usersremember_password .submit input, .usersremember_password_step_2 .submit input {
+    padding: 13px 35px !important;
+    background: #c2c4ce;
+    color: #073e84;
+    font-size: 16px;
+}    
+
+
+    #flujodashboard {
+        height: 750px !important;
+    }
+    header video{
+        display: none !important;
+    }
+    header{
+        background-color: transparent !important;
+    }
+
+    .loginblock {
+        background: transparent !important;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.0) !important;
+    }
+    header .overlay{
+        display: none !important;
+    }
+    .nameview {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .col-md-2.bs-wizard-step {
+        width: 16%;
+        display: inline-block;
+        float: left;
+    }
+
+    .col-md-3.bs-wizard-step {
+        width: 16%;
+        display: inline-block;
+        float: left;
+    }
+    .col-md-1.bs-wizard-step{
+        width: 8%;
+        display: inline-block;
+        float: left;        
+    }
+    .col-md-1.bs-wizard-step:fir .bs-wizard-info.text-center{
+        display: none;
+    }
+
+    .myTable, .table_resultados, .myTableOrderFin, .tableproducts, #contactsall, .naturalperson, #naturalpersontable, .tabletemplates, .activityusers, .tableCotizacionesEnviadas, .tableCotizacionesEnviadas {
+        width: 800PX !important;
+    }    
+    .typeahead__list, .typeahead__dropdown {
+        padding: 0 !important;
+        font-size: 12px !important;
+        margin: 0px !important;
+        text-transform: uppercase !important;
+    }
+    .typeahead__display strong{
+        font-size: 12px !important;
+    }
+    .input-group.stylish-input-group a{
+        font-size: 15px;
+        color: #fff !important;
+        font-weight: bold;
+        padding: 10px;
+        background: #004990;
+        margin: 0 0 20px 0 !important;
+        display: block;
+        text-align: center;
+    }
+    #btn_delete_cache{
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px;
+        margin: 15px 0px;
+        display: block;
+        text-align: center;        
+    }
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .submenus{
+        display: none;
+    }
+    #calendarManage iframe {
+        height: auto !important;
+    }  
+
+    #block-one .boxright {
+        vertical-align: 40px;
+        text-align: center;
+    }
+    #block-two .boxleft {
+        text-align: center;
+    }
+    #block-one .boxright h3 {
+        margin-top: 8px;
+        display: inline-block;
+    }
+    #block-one .boxright h4{
+        display: inline-block;
+    }
+    #block-one, #block-two, #block-three {
+        padding: 0 10px;
+        height: auto;
+        max-height: initial;
+    }    
+    #block-two .boxright {
+        text-align: center;
+        padding: 0px;
+    }
+    .bloqueshome{
+        display: block;
+    }   
+    .type-wrap {
+        font-size: 21px;
+        top: 24px;
+    }
+    .search-menu{
+        padding: 0 !important;
+        font-size: 21px !important;
+    }
+    .col-md-6.tabs.remember_pass {
+        padding: 12px;
+    }
+    .offline .content-all .container {
+     max-width: 100%;
+ }
+ .imgproductview {
+     height: 250px;
+     margin: 40px 0px;
+ }
+ .contentmargin {
+     padding: 0px;
+ }
+ p.priceview {
+     text-align: center;
+ }
+ h3.colorrojo {
+     text-align: left !important;
+     font-size: 16px !important;
+ }
+ .h-150 {
+     height: auto!important;
+ }
+ .siguenos-redessociales {
+     display: none;
+ }
+ ul.condiciones_negociacion-sub {
+     -webkit-padding-start: 0px;
+     list-style: none;
+ }
+ #print_button{
+     display: none;
+ }
+ .note-editor.note-frame .note-editing-area .note-editable {
+    padding: 10px;
+    overflow: auto;
+    color: #000;
+    word-wrap: break-word;
+    height: 200px;
+    background-color: #fff;
+}
+}
+
+@media screen and (max-width: 210px) {
+    body{
+        display: none;
+    }
+}
+
+#cuerpoOtro .notesProduct{
+    display: none !important;
+}
+
+@media screen and (max-width: 1366px) {
+    .stylegeneralbox2 {
+        flex-wrap: initial;
+        margin: revert;
+        padding: 0px;
+        position: static;
+        width: 100%;
+        right: initial;
+        background: white;
+        z-index: 911;
+        font-size: 12px;
+        top: initial;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .modal-lg2,.modal-lg3,.modal-lg4 {
+        max-width: 100% !important;
+    }
+    .d-xs-none{
+        display: none !important;
+    }
+
+    .fijascroll {
+        position: static;
+        width: 100%;
+        z-index: 995;
+        left: initial;
+        background: transparent;
+        top: initial;
+        padding: 0px;
+        box-shadow: none;
+    }
+    .mt-xs-2{
+        margin-top: 2em;
+    }
+    .p-xs-3{
+        padding: 1em;
+    }
+    .text-mobile{
+        font-size: 1rem;
+    }
+    .sa-confirm-button-container{
+        width: 100%;
+    }
+    .input.number{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .stylegeneralbox2 {
+        flex-wrap: initial;
+        margin: revert;
+        padding: 0px;
+        position: static;
+        width: 100%;
+        right: initial;
+        background: white;
+        z-index: 911;
+        font-size: 12px;
+        top: initial;
+    }
+    .controlcolors .letra-verde {
+        color: #00b307 !important;
+    }
+    .col-xs-6{
+        width: 50% !important;
+    }
+    .popup{
+        width: 95%;
+    }
+    .controlp img{
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+    table .dropdown-menu.show {
+        position: static !important;
+        transform: none !important;
+    }
+    input#txt_buscar_flujo,#btn_buscar_flujo {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    #btn_total_cotizacion,#cotizaciones_creadas{
+        margin-top: 5px;
+    }
+    .itemsopen ul.sidenav-second-level.collapse.show {
+        display: block;
+    }
+    td.precio {
+        width: 240px;
+        padding: 0.1rem !important;
+    }
+    table .titletablequote{
+        font-size: 20px;
+    }
+    .bs-wizard {
+        padding: 15px;    
+    }
+    .drp-selected{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        display: block !important;
+    }
+    ul.subpagos li {
+        width: 100%;
+        margin-top: 2px;
+    }
+    .actionsasesor{
+        background: transparent;
+    }
+    .actionsasesor > .btn{
+        margin-top: 3px;
+    }
+    .mt-xs-50{
+        margin-top: 50px !important;
+    }
+    a#nuevoFlujoTienda,a#nuevoFlujoCrmData{
+        border-radius: initial;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .modal-lg2 {
+        max-width: 70% !important;
+    }
+
+    .modal-lg4{
+        min-width: 90% !important;
+    }
+
+}
+@media screen and (min-width: 991px) {
+    #menuData{
+        position: absolute;
+        top: 65px;
+        left: 0;
+        display: none;
+    }
+    .movilDataRespnisive #toggleMenu2{
+        display: block;
+        position: initial;
+        margin-left: 15px;
+    } 
+    .movilDataRespnisive nav#mainNav {
+        max-height: 80px !important;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .controlp img{
+        max-width: 200px;
+        margin: auto;
+        display: block;
+    }
+}

@@ -1,0 +1,1 @@
+<option value="<?php echo $user['ContacsUser']['id'] ?>"><?php echo $user['ContacsUser']['name']. (isset($value["Concession"]["name"]) && !empty($value["Concession"]["name"]) ? " | Concession: " .$value["Concession"]["name"] : '') ?></option>

@@ -1,0 +1,85 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 28/09/2018 18:16
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-menu:before { content: "\f100"; }
+.flaticon-delivery-package:before { content: "\f101"; }
+.flaticon-box:before { content: "\f102"; }
+.flaticon-growth:before { content: "\f103"; }
+.flaticon-shield:before { content: "\f104"; }
+.flaticon-target:before { content: "\f105"; }
+.flaticon-teamwork:before { content: "\f106"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f107"; }
+.flaticon-menu-1:before { content: "\f108"; }
+.flaticon-geometry:before { content: "\f109"; }
+.flaticon-documents-set:before { content: "\f10a"; }
+.flaticon-receipt:before { content: "\f10b"; }
+.flaticon-delivery-truck:before { content: "\f10c"; }
+.flaticon-logistics-delivery-truck-and-clock:before { content: "\f10d"; }
+.flaticon-automobile-with-wrench:before { content: "\f10e"; }
+.flaticon-gmail-logo:before { content: "\f10f"; }
+.flaticon-layout:before { content: "\f110"; }
+.flaticon-factory:before { content: "\f111"; }
+.flaticon-report:before { content: "\f112"; }
+.flaticon-report-1:before { content: "\f113"; }
+.flaticon-open-folder-with-document:before { content: "\f114"; }
+.flaticon-pdf-file:before { content: "\f115"; }
+.flaticon-pdf:before { content: "\f116"; }
+    
+    $font-Flaticon-menu: "\f100";
+    $font-Flaticon-delivery-package: "\f101";
+    $font-Flaticon-box: "\f102";
+    $font-Flaticon-growth: "\f103";
+    $font-Flaticon-shield: "\f104";
+    $font-Flaticon-target: "\f105";
+    $font-Flaticon-teamwork: "\f106";
+    $font-Flaticon-calendar-with-a-clock-time-tools: "\f107";
+    $font-Flaticon-menu-1: "\f108";
+    $font-Flaticon-geometry: "\f109";
+    $font-Flaticon-documents-set: "\f10a";
+    $font-Flaticon-receipt: "\f10b";
+    $font-Flaticon-delivery-truck: "\f10c";
+    $font-Flaticon-logistics-delivery-truck-and-clock: "\f10d";
+    $font-Flaticon-automobile-with-wrench: "\f10e";
+    $font-Flaticon-gmail-logo: "\f10f";
+    $font-Flaticon-layout: "\f110";
+    $font-Flaticon-factory: "\f111";
+    $font-Flaticon-report: "\f112";
+    $font-Flaticon-report-1: "\f113";
+    $font-Flaticon-open-folder-with-document: "\f114";
+    $font-Flaticon-pdf-file: "\f115";
+    $font-Flaticon-pdf: "\f116";

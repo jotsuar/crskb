@@ -1,0 +1,114 @@
+Cliente natural															= 0;
+
+Estado habilitado														= 1;
+Estado inhabilitado 													= 0;
+
+Notificacion vista 														= 1;
+Notificacion no vista 													= 0;
+
+Contacto cotizado														= 1;
+Contacto no cotizado													= 0;
+
+Cotización enviada														= 1;
+Cotización no enviada													= 0;
+
+Mostrar el total en la cotizacion										= 1;
+No mostrar el total en la cotizacion									= 0;
+
+Estado de las cotizaciones:
+Cotización habilitada													= 1;
+Cotización deshabilitada												= 0;
+
+Estados del envio de la cotizacion(send) tabla Flow_stages:
+Pendiente (El cliente espera la cotización) 							= 0;
+Enviada (Espera a la respuesta del cliente)  							= 1;
+Volver a enviar (El cliente solícito una nueba cotización) 				= 2;
+
+Estado del envio de la cotizacion:
+Cotizacion enviada 														= 1;
+Cotizacion no enviada 													= 0;
+Cotización gestionada 													= 2;
+
+Estados de la tabla flow_stages (state):
+Flujo finalizado 														= 0;
+Pago aceptado			 												= 1;
+Esperando autorización del pago por el area de tesoreria 				= 2;
+Pago verificado - positivo, solicitar direccion de entrega				= 3;
+Pago verificado - negativo			 									= 4;
+Esperando autoriación del pago en abono por tesoreria 					= 5;
+Pedido entregado 														= 6;
+Gestionar productos para importacion 									= 7;
+
+Estado de verificacion del pago flow_stages (payment_verification)
+Pago verificada 														= 1;
+Pago por verificar 														= 0;
+No verificada 															= 2;
+
+Tipo de pago, Flow_stages (type_pay)
+Pago total 																= 0
+Pago sin retención 														= 1
+Pago con abono 															= 2
+Pago a creditó 															= 3
+Pago a creditó sin iva 													= 5
+
+Estado de la tabla prospective_users (pasar a la siguiente etapa)
+Siguiente etapa habilitada 												= 1;
+Siguiente etapa deshabilitada 											= 0;
+
+Estado de la tabla prospective_users (Despacho)
+Orden lista para enviar 												= 2;
+Administrar orden			 											= 0;
+
+Tabla prospective_users (type): tipo de flujo, servicio tecnico o flujo de venta
+Flujo para un servicio tecnico (id) 									> 0;
+Flujo de venta 															= 0;
+
+Estado de conexión del usuario
+Usuario no logueado 													= 0;
+Usuario logueado 														= 1;
+
+Estados de la información del despacho
+Por enviar																= 2;
+Enviado 																= 1;
+
+Servicio técnico, estado del servicio
+Finalizado 																= 1;
+No finalizado 															= 0;
+
+Servicio técnico, generaar cotizacion
+No generar cotizacion 													= 0;
+Generar cotizacion 														= 1;
+
+Estados de la tabla quotations_products
+Por administrar 														= 0;
+Pedido administrado (Sin importar) 										= 1:
+Pedido administrado	(importado)											= 2;
+Enviado 																= 3;
+Entregado 																= 4;
+Importacion en proceso (pedido administrado)							= 5;
+Importacion finalizada (pedido administrado)							= 6;
+
+Estados de importación de producto (quotations_products - state_import)
+Producto no importado													= 0;
+Solicitud de importación 												= 1;
+Orden montada 															= 2;
+Despacho de proveedor													= 3;
+Llegada a miami 														= 4;
+Despacho a amerimpex													= 5;
+Nacionalización 														= 6;
+Producto en la empresa 													= 7;
+
+Estados de la tabla de importaciones (imports)
+Importación en proceso 													= 1;
+Importacion finalizada 													= 2;
+Importación en resivion 												= 3;
+Importación en rechazada 												= 4;
+
+
+
+
+
+TAREAS PROGRAMADAS
+Users/sendReportGerenciaAsesores 			: Reporte para gerencia de los asesores que sobrepasan el tiempo valido para atender al cliente
+Users/validateTimeAttention					: Validar los tiempos de atencion en las etapas de contactado y cotizado de cada asesor ante los clientes
+ManagementNotices/validateTime 				: Validar la fechas de inicio y la fecha fin para validar el estado del aviso de gerencia

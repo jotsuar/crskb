@@ -1,0 +1,170 @@
+body {
+    background-color: #fff !important;
+  }
+
+@media print {
+  @page {
+      size: letter;
+      margin-top: 80px;
+      margin-bottom: 120px;
+  }
+  
+  #idflujo {
+    display: none;
+  }
+  .TechnicalServices #mainNav{
+    display: none;
+  }
+  .TechnicalServices h2.specialpdf {
+    padding: 10px;
+  }
+  .TechnicalServices.bg-dark{
+    background-color: white !important; 
+  } 
+  .TechnicalServices .dataclientview .lineb {
+    border-bottom: 1px solid #000000;
+  }
+  .TechnicalServices .bordespan {
+      border: 1px solid #000000;
+  }
+  .TechnicalServices .imgservicecontent {
+      height: 220px;
+  }
+  .TechnicalServices .content-wrapper {
+    padding-top: 0px;
+  }
+  .TechnicalServices .siguenos-redessociales{
+    display: none;
+  }
+  .TechnicalServices .blockwhite {
+      padding: 0px !important;
+  }
+  .TechnicalServices .pdpagest{
+    padding: 0px !important; 
+  }
+  .TechnicalServices .dataclientview{
+    padding: 0px !important;
+  }
+  .TechnicalServices .datasedes{
+    display: none;
+  }
+  .TechnicalServices .dataclientview .col-md-12.text-justify p {
+    padding: 0px !important;
+    font-size: 10px;
+  }
+  .TechnicalServices .dataclientview .col-md-12.text-justify {
+    padding: 0px !important;
+  }  
+  .TechnicalServices .firmas {
+    margin-top: 80px;
+  }
+  .printh{
+    display: block;
+  }
+  .databuy , footer.sticky-footer{
+    display: none;
+  }
+  footer {
+    position: fixed !important;
+    bottom: 0px !important;
+    width: calc(100% - 120px) !important;
+  }
+  body {
+    background-color: #fff !important;
+    transform: scale(1);
+  }
+
+  .content-wrapper {
+    background: #ffffff !important;
+  }
+  #print_button, .rounded{
+    display: none !important;
+  }
+  .rint_button{
+    display: none !important;
+  }
+  .container {
+    max-width: 1400px;
+}
+  .normal{
+    display: none;
+  }
+  h3{
+      font-size: 18px !important;
+      font-weight: bold !important;
+  }
+  h2{
+      font-size: 20px !important;
+      font-weight: bold !important;
+  }  
+  .condiciones_negociacion li {
+    font-size: 16px !important;
+  }
+ 
+  #cotizacionview p {
+    font-size: 15px !important;
+  }
+  .datasesorview{
+    font-size: 18px;
+  }
+  .datasesorview b{
+    line-height: 19px !important;
+  }
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+  .contentmargin {
+    padding: 0px 10px !important;
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+    background-color: white;
+    z-index: 99999;
+    position: relative;
+  }
+
+  .text-success{
+    font-size: 16px !important;
+  }
+  .dataproductview h3 {
+    font-size: 20px !important;
+  }
+  .nomr{
+    margin-top: 5px !important;
+  }
+  .nomr p{
+    padding: 8px 12px !important;
+  }  
+  h4.totalcotiza {
+    font-weight: bold !important;
+    font-size: 20px !important;
+  }
+  .blockwhite {
+    padding: 0px 0px 100px 0px !important;
+  }
+
+}
+

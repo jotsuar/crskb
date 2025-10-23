@@ -1,0 +1,59 @@
+<div class="col-md-12">
+	<div class=" widget-panel widget-style-2 bg-azulclaro big">
+         <i class="fa fa-1x flaticon-growth"></i>
+        <h2 class="m-0 text-white bannerbig">Módulo de Gestión CRM </h2>
+	</div>
+	<div class=" blockwhite spacebtn20">
+		<div class="row ">
+			<div class="col-md-6">
+				<h2 class="titleviewer">Gestión de Transportadoras</h2>
+			</div>
+			<div class="col-md-6 text-right">
+				<a href="<?php echo $this->Html->url(array('controller'=>'conveyors','action'=>'add')) ?>" class="crearclientej"><i class="fa fa-1x fa-plus-square"></i> <span>Crear nueva transportadora</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div class=" blockwhite spacebtn20">
+		<div class="table-responsive">
+			<table cellpadding="0" cellspacing="0" class="myTable table-striped table-bordered">
+				<thead>
+				<tr>
+						<th><?php echo $this->Paginator->sort('name',"Nombre"); ?></th>
+						<th><?php echo $this->Paginator->sort('url',"URL rastreo"); ?></th>
+						<th><?php echo $this->Paginator->sort('state',"Estado"); ?></th>
+						<th class="actions"><?php echo __('Acciones'); ?></th>
+				</tr>
+				</thead>
+				<tbody>
+				<?php foreach ($conveyors as $conveyor): ?>
+					<tr>
+						<td><?php echo h($conveyor['Conveyor']['name']); ?>&nbsp;</td>
+						<td><?php echo h($conveyor['Conveyor']['url']); ?>&nbsp;</td>
+						<td><?php echo h($conveyor['Conveyor']['state']) == 1 ? "Activo" : "Inactivo"; ?>&nbsp;</td>
+						<td class="actions">
+							<!-- <a href="<?php echo $this->Html->url(array('action' => 'view', $this->Utilities->encryptString($conveyor['Conveyor']['id']))) ?>" data-toggle="tooltip" title="Ver marca"><i class="fa fa-fw fa-eye"></i>
+					            </a> -->
+					        <a href="<?php echo $this->Html->url(array('action' => 'edit', $this->Utilities->encryptString($conveyor['Conveyor']['id']) )) ?>" data-toggle="tooltip" title="Editar marca"><i class="fa fa-fw fa-pencil"></i>
+					            </a>
+						</td>
+					</tr>
+				<?php endforeach; ?>
+				</tbody>
+			</table>
+		</div>
+		<div class="row numberpages">
+			<?php
+				echo $this->Paginator->first('<< ', array('class' => 'prev'), null);
+				echo $this->Paginator->prev('< ', array(), null, array('class' => 'prev disabled'));
+				echo $this->Paginator->counter(array('format' => '{:page} de {:pages}'));
+				echo $this->Paginator->next(' >', array(), null, array('class' => 'next disabled'));
+				echo $this->Paginator->last(' >>', array('class' => 'next'), null);
+			?>
+			<b> <?php echo $this->Paginator->counter(array('format' => '{:count} en total')); ?></b>
+		</div>
+		</div>
+	</div>
+</div>
+
+<?php echo $this->Html->script(array('lib/jquery-3.0.0.js?'.rand()),						array('block' => 'jqueryApp')); ?>

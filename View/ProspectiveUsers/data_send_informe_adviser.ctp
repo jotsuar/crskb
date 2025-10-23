@@ -1,0 +1,2 @@
+<?php echo 'Informe entre la fecha '.$fecha_inicio.' y '.$fecha_fin; ?>
+<?php echo $this->Form->input('observation',array('type' => 'textarea','rows'=>'3','label' => 'Observación','placeholder' => 'Por favor ingresa si tienes una observación')); ?>
